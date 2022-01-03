@@ -1,0 +1,8 @@
+--- ref.txt	2022-01-03 23:36:55.705156330 +0800
++++ result.txt	2022-01-03 23:36:55.709156914 +0800
+@@ -216,4 +216,4 @@
+ L 7ff000390,8 miss eviction 
+ L 7ff000398,8 miss eviction 
+ L 600aa0,1 miss eviction 
+-hits:201 misses:37 evictions:29
++my solution : hits:201 misses:37 evictions:29
