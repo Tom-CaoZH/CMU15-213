@@ -1,5 +1,24 @@
 make clean
 make
+./test-trans -M 32 -N 32
+./test-trans -M 64 -N 64
+./test-trans -M 61 -N 67
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# for part A
+
 # ./csim-ref -s 4 -E 2 -b 4 -t traces/dave.trace
 # ./csim -s 4 -E 2 -b 4 -t traces/dave.trace
 
@@ -12,9 +31,9 @@ make
 # ./csim-ref -s 4 -E 2 -b 4 -t traces/long.trace
 # ./csim -s 4 -E 2 -b 4 -t traces/long.trace
 
-./csim-ref -v -s 2 -E 2 -b 3 -t traces/trans.trace > ref.txt
-./csim -v -s 2 -E 2 -b 3 -t traces/trans.trace > result.txt
-diff -u ref.txt result.txt > diff.txt
+# ./csim-ref -v -s 2 -E 2 -b 3 -t traces/trans.trace > ref.txt
+# ./csim -v -s 2 -E 2 -b 3 -t traces/trans.trace > result.txt
+# diff -u ref.txt result.txt > diff.txt
 
 
 # void mwrite(cache_line_t* cache,uint64_t addr_tag,uint64_t addr_index){
